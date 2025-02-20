@@ -1,0 +1,19 @@
+@startuml
+class persona{
+-m_nombre:string
+-m_apellidos:string
+-m_yearNacimiento:int
+
+
++Persona()
++Persona(m_nombre:string,_m_apellidos:string,_yearNacimiento:int
++getEdad(_currentYear:int):int
++getNombre():string
++setNombre(m_nombre:string):void
++getApellidos():string
++setApellidos(m_apellidos:string):void
++getYearNacimiento():int
++setYearNacimiento(m_yearNacimiento:int):void
+
+}
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+class Temperatura{
+-m_gradosC: double
+-m_gradosF: double
+
+
++ Temperatura()
++Temperatura(celsius:double)
++getGradosC():double
++setGradosC(celsius:double):void
++getGradosF():double
+
+}
+@enduml

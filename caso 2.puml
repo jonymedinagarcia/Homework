@@ -1,0 +1,32 @@
+@startuml
+Punto2D--->Circunferencia
+
+
+class Punto2D{
+-m_coordX:double
+-m_coordY:double
+
++Punto2D()
++Punto2D(_x:double,_y:double)
++getCoordX():double
++setCoordX(_coordX:double):void
++getCoordY():double+setCoordY(_coordY:double):void
+
+}
+
+class Circunferencia {
+-m_centro:Punto2D
+-m_radio:double
+
++Circunferencia()
++Circunferencia(_radio:double,_x:double,_y:double)
++Circunferencia(_radio:double,_centro:Punto2D)
++getCentro():Punto2D
++setCentro(_centro:Punto2D):void
++getRadio():double
++setRadio(_radio:double):void
+
+
+}
+
+@enduml
